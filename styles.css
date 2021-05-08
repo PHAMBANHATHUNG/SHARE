@@ -1,0 +1,245 @@
+.container{
+        max-width: 1225px;
+}
+.mb-6{
+        margin-bottom: 155px;
+}
+#header .header-top{
+        padding-top: 5px;
+        padding-bottom: 10px;
+}
+#header .header-top ul{
+        list-style: none;
+        text-align: right;
+        /* float: right; */
+        padding-top: 40px;
+        margin: 0;
+}
+#header .header-top ul li{
+        display: inline-block;
+        padding: 0 7px;
+        /* float: left; */
+}
+#header .header-top ul li a{
+        color: #9b9999;
+}
+#header .header-top ul li a i{
+        font-size: 27px;
+}
+#header .header-top ul li.active a{
+        color: #14171C;
+}
+
+/* #header .banner{
+        position: relative;
+        min-height: 275px;
+}
+
+#header .banner img{
+        position: absolute;
+        opacity: 1;
+        top: 0;
+        left:0;
+}
+/* #header .banner img.banner1{
+        opacity: 1;
+} */
+/*#header .banner .arrow{
+        position: absolute;
+        z-index: 999;
+        width: 100%;
+        text-align: center;
+        bottom: 10px;
+}
+
+#header .banner .arrow span{
+     display: inline-block;
+     width: 20px;
+     height: 20px;
+     background: #ffffff;
+     margin: 0 4px;
+     border-radius: 50%;
+     cursor: pointer;
+     z-index: 9999999;
+     position: relative;
+}
+#header .banner .arrow span.active{
+        background: #434343;
+} */
+.carousel-indicators li.active{
+        background: #5d5c5c;
+}
+.carousel-indicators li{
+        width: 20px;
+        height: 0px;
+        border-radius: 50%;
+        background: #ffffff;
+}
+
+#content{
+    padding-bottom: 185px;
+}
+
+#content .tab-news{
+    border-bottom: 1px solid #00000080;
+    padding-bottom: 30px;
+    margin-bottom: 80px;
+    padding-top: 25px;
+}
+
+#content .tab-news ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#content .tab-news ul li{
+    display: inline-block;
+    padding: 0 20px;
+}
+
+#content .tab-news ul li:first-child{
+    padding-left: 0;
+}
+
+#content .tab-news ul li:last-child{
+    padding-right: 0;
+}
+
+#content .tab-news ul li a{
+    text-transform: uppercase;
+    color: #13161b80;
+}
+#content .tab-news ul li a:hover{
+    color: #000;
+    text-decoration: none;
+}
+
+#content .tab-news ul li a.active{
+    color: #000;
+}
+
+#content .item-news{
+    margin-bottom: 100px;
+}
+
+#content .item-news:hover img{
+    filter: grayscale(0);
+}
+
+#content .item-news:hover a{
+    color: #B70004 !important;
+}
+
+#content .item-news img{
+    width: 100%;
+    filter: grayscale(1);
+}
+
+#content .item-news > a{
+    display: inline-block;
+    max-height: 353px;
+    overflow: hidden;
+}
+
+#content .item-news .item-news-content{
+    margin-top: 35px;
+}
+
+#content .item-news .item-news-content p{
+    text-transform: uppercase;
+    font-size: 11px;
+    margin-bottom: 5px;
+    color: #14171C;
+}
+
+#content .item-news .item-news-content a{
+    color: #000;
+    font-size: 22px;
+}
+
+#content .item-news .item-news-content a:hover{
+    text-decoration: none;
+}
+
+#content .view-more{
+    font-size: 11px;
+    font-style: italic;
+    color:#14171C;
+}
+
+#content .view-more:hover{
+    text-decoration: none;
+    color: #B70004;
+}
+
+#footer{
+        background: #0F1C2D;
+        padding-top: 45px;
+        padding-bottom: 113px;
+}
+#footer p{
+        color: #ffffff;
+        margin-bottom: 5px;
+}
+#footer .menu-footer{
+        list-style: none; 
+        padding: 0;
+        margin: 0;       
+}
+#footer .menu-footer li{
+        display: inline-block;     
+        padding: 0 31px;     
+}
+#footer .menu-footer li:first-child{
+        padding-left: 0px;
+}
+
+#footer .menu-footer li:last-child{
+        padding-right: 0;
+}
+
+#footer .menu-footer li a{
+        color: #ffffff;
+        text-transform: capitalize;                
+}
+
+#footer .menu-footer li a.active{
+    color: #ffffff80;
+}
+
+#footer .policy{
+        list-style: none;
+        margin: 0;
+        padding: 31px 0 0 0;
+}
+#footer .policy li{
+        display: inline-block;   
+        padding: 0 21px; 
+}
+#footer .policy li:first-child{
+        padding-left: 0;
+}
+#footer .policy li:last-child{
+        padding-right: 0;
+}
+#footer .policy li a{
+        color: #ffffff;
+}
+#footer .policy li a.active{
+    color: #ffffff80;
+}
+#footer .social{
+        margin-top: 27px;
+}
+#footer .social a{
+        padding: 0 8px;
+        color: #ffffff;
+        font-size: 23px;
+}
+#footer .social a:first-child{
+        padding-left: 0;
+}
+#footer .social a:last-child{
+        padding-right: 0;
+}
